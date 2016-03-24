@@ -2,11 +2,11 @@
 using System.Net;
 using System.Runtime.ExceptionServices;
 using System.Threading;
-using Microsoft.Azure;
 using Microsoft.WindowsAzure.ServiceRuntime;
 using KinderChat.ServerClient;
 using KinderChat.WorkerRole.SocketServer.Infrastructure.Logging;
 using KinderChat.WorkerRole.SocketServer.Infrastructure.Logging.Loggers;
+using Microsoft.WindowsAzure;
 
 namespace KinderChat.WorkerRole.SocketServer
 {

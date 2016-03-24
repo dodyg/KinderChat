@@ -28,7 +28,8 @@ namespace KinderChatServer
                 RequestPath = new PathString("/Images")
             });
 
-            var messages = new ProcessedMessagesQueue(ConnectionString, OnMessageArrived);
+            var messages = new ProcessedMessagesQueue(ConnectionString);
+            messages.SubscribeForMessages(OnMessageArrived);
         }
 
         private bool OnMessageArrived(Message messageDto)

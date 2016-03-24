@@ -21,7 +21,7 @@ namespace KinderChat.ServiceBusShared
                 var topicDesc = new TopicDescription(topicName);
                 topicDesc.DefaultMessageTimeToLive = TimeSpan.FromMinutes(10);
                 topicDesc.EnableBatchedOperations = false;
-                topicDesc.EnableExpress = false;
+                //topicDesc.EnableExpress = false;
                 topicDesc.SupportOrdering = true;
                 var topic = namespaceManager.CreateTopic(topicDesc);
             }
