@@ -495,6 +495,7 @@
     <Content Include="Scripts\ww.jquery.js" />
     <Content Include="Scripts\ww.jquery.min.js" />
     <Content Include="Views\Templates\NewUser.cshtml" />
+    <Content Include="ClassDiagram1.cd" />
     <None Include="Properties\PublishProfiles\kinder-chat - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\kinder-chat - Web Deploy.pubxml" />
     <None Include="Properties\Settings.settings">
