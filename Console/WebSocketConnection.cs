@@ -184,6 +184,7 @@ namespace KinderChat
 
         protected override object DeserializeObject(string json, Type type)
         {
+            json = json.Replace("MigrantFootprints.ChatServer.ServerClient", "KinderChat.ServerClient");
             return JsonConvert.DeserializeObject(json, type, jsonSerializerSettings);
         }
 

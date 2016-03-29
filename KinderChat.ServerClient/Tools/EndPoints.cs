@@ -66,8 +66,8 @@ namespace KinderChat.ServerClient
         public const int WsPort = 6102;
 
         //public const string WsHost = "ws://kinderws.cloudapp.net"; //Production
-        public const string WsHost = "ws://kinder-server-egorbo.cloudapp.net"; //Integration
-        //public const string WsHost = "ws://192.168.1.2"; //local
+        //public const string WsHost = "ws://kinder-server-egorbo.cloudapp.net"; //Integration
+        public const string WsHost = "ws://127.0.0.1"; //local
 
         public static string WsUrl { get { return string.Format("{0}:{1}", WsHost, WsPort); } } //can't be constant :(
 
